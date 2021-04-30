@@ -1,0 +1,488 @@
+@media (min-width: 640px){
+    
+}
+     
+@media screen and (max-width: 768px){
+    .search-list-menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container-custom{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    section.header-section-homepage {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .search-wrapper-content__logo{
+        margin-top: 0;
+    }
+    .category-list-dropdown{
+        display: none;
+    }
+    .search-wrapper {
+        margin-top: 3rem;
+    }
+    .search-wrapper-content__title {
+        font-size: 20px;
+    }
+    .topbar-menu-two {
+        display: none;
+    }
+    ul.nav.ul-menu-top {
+        display: none;
+    }
+    .topbar-menu-first{
+        border: 0;
+    }
+    #navbar-toggler-btn {
+        display: block;
+    }
+    #nav-header {
+        -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.47);
+        -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.47);
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.47);
+        position: fixed;
+    }
+    #auth-wrapper{
+        height: 100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+     }
+     .product-detail-suggest {
+         width: inherit;
+     }
+     .how-to-send-product,
+     .product-compuny-details {
+         width: 100%;
+     }
+     .how-to-send-product, .product-company-details{
+         width: 100%;
+     }
+     .nav-link-tab {
+        display: inline-block;
+        border-bottom-right-radius: 10px;
+        border: 1px solid #B7B7B7;
+        border-top: transparent;
+        color: #000;
+        font-size: .9rem;
+        padding: 10px 12px;
+    }
+    .product-company-count-select {
+        width: 100%;
+    }
+    .box-contact-product-company__count{
+        flex-flow: wrap;
+    }
+    .box-contact-product-company__count-input{
+        width: 100%;
+    }
+    .box-contact-product-company__count-input #product-count {
+        width: 100%;
+    }
+    .box-contact-product-company__submit {
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+    }
+    .footer-box{
+        text-align: center;
+    }
+    .category-list-menu {
+        display: none;
+    }
+    .search-list-menu input.form-control::placeholder {
+        font-size: .8rem;
+    }
+    .product-list-story{
+        border-right: 0;
+    }
+    .btn-group-sorting{
+        display: none;
+    }
+    .product-list-card .card-body {
+        display: block;
+    }
+    .product-list-image {
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        margin-bottom: .5em;
+    }
+    .product-list-view-company-details {
+        border-right: 0;
+    }
+    .product-list-view-detail .box-social-product {
+        left: 0px;
+    }
+    
+    .payment-success {
+        height: auto;
+        padding: 20px;
+    }
+    .payment-success h2{
+        font-size: 1.3em;
+    }
+    .border-right-big,.border-right-small{
+        display: none;
+    }
+    .line-xs {
+        height: 2px;
+        width: 80%;
+        background: #f2f2f2;
+        margin: 20px auto;
+    }
+    .card-bascket {
+        border-top: none;
+    }
+    .card-number-product {
+        margin-right: 0 !important;
+    }
+    .line-factor-between{
+        display: none;
+    }
+    .box-contact-product-company__count-select {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 20px;
+    }
+    .product-company-count-title {
+        display: block;
+        margin: 15px 0;
+    }
+    .icon-address {
+        display: block !important;
+    }
+    span.edit-address i {
+        margin-bottom: 25px !important;
+    }
+    label#radio-right {
+         line-height: 25px;
+    }
+    .wm-form input, .wm-form textarea {
+        width: 100% !important;
+    }
+    .wm-form label {
+        width: 100% !important;
+        text-align: right;
+        padding-bottom: 10px;
+    }
+    .wm-form {
+        flex-direction: column;
+        align-items: flex-start !important;
+        margin-bottom: 20px;
+    }
+    button.btn-contact {
+        width: 100% !important;
+    }
+    .sidebar-tab-navigation{
+        border-left:0;
+        border-bottom: 1px solid #ececec;
+    }
+    .nav-link-coustom {
+        text-align: center;
+    }
+    .card-heading {
+        padding-bottom: 1.2em;
+    }
+    .page-title-card::before {
+        top:-5%;
+        right: 50%;
+    }
+    .page-title-card::after {
+        top: 90%;
+        right: 50%;
+    }
+    .tab-box-title {
+        line-height: 30px;
+        text-align: center;
+    }
+    .faq-heading{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding-bottom: 1.8em;
+    }
+    .item-answer__title,
+    .item-quotation__title{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .item-quotation__text,
+    .item-answer__text{
+        width: 100%;
+        display: block;
+    }
+    .li__company-span-title,
+    .li__company-span-des{
+        padding: 8px 5px;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .li__company-span-title {
+        width: 38%;
+    }
+    .box-company-border {
+        margin: 0;
+        padding: 2em 0;
+        border-left: 0;
+        border-bottom: 1px solid #707070;
+    }
+    .details-company-box {
+        margin: 15px 0;
+        justify-content: center;
+        flex-flow: wrap;
+        width: 100%;
+    }
+    .company-contact{
+        margin: 2em 0;
+    }
+}
+    
+@media (min-width: 1024px){
+    .box-similar-products{
+        max-width: 200px;
+    }
+    .value-rah-txt {
+        height: 80px;
+    
+    }
+}
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1600px) {
+    .container-custom{
+        width: 95%;
+    }
+     .sub-categories-itme-colum {
+         width: 20%;
+     }
+}
+    
+@media (min-width: 1200px){
+    .product-list-view-detail {
+            width: 40%;        
+    }
+    .product-list-image,
+    .product-list-view-company-details {
+        width: 30%;
+    }
+    .product-list-view-detail .box-social-product {
+        left: -14px;
+    }
+    button.btn-contact {
+        margin-right: 9px !important;
+    }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 300px) and (max-width : 520px) {
+    /* Styles */
+    .product-detail-suggest {
+        width: 100%;
+    }
+    .add-to-bascket {
+        justify-content: start;
+        flex-flow: column;
+        align-items: center;
+    }
+    .how-to-send-product {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .price-wrapper {
+        padding: 10px;
+    }
+    .product-detail-suggest{
+        border: 0;
+    }
+    .how-to-send-product {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .online-chat-section{
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .chat-message-box{
+        max-height: 80%;
+    }
+    .footer-copyright__left {
+        margin: 20px 0;
+    }
+    .footer-copyright__right.text-right p {
+        text-align: center;
+    }
+    .box-contact-product-company_text textarea {
+        width: 100%;
+        min-height: 100px;
+        margin: 14px 0px;
+    }
+    .row-border-top .col-12 {
+        padding: 5px !important;
+    }
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media screen and (min-width: 992px) {
+        .modal-custom {
+            max-width: 900px;
+        }
+        .company-contact li .detail-contact{
+            width: 35%;
+        }
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width : 768px) and (max-width : 1024px) {
+        .product-list-card .card-body{
+            display: block;
+        }
+        .product-list-image {
+            max-width: 250px;
+            margin: 0 auto;
+        }
+       
+    }
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width : 1024px) and (max-width : 1500px) {
+        .category-title {
+            font-size: 1rem;
+        }
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    /* Desktops and laptops ----------- */
+    @media screen  and (min-width : 1400px) {
+        .link-category-root{
+            font-size: 1rem;
+            padding: 16px 0;
+        }
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-width: 320px) and (max-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    
+    }
+
+    @media only screen and (min-width:400px) {
+        span.edit-address {
+            margin-left: 26px !important;
+        }
+    }
+    

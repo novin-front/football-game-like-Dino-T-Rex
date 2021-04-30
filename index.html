@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>fotfam</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="timer-box">
+            <span id="minutes">00</span> : 
+            <span id="seconds">00</span>
+        </div>
+        <div class="rate-box">
+            <span id="game-rate">0</span>
+            <span class="game-rate-text">امتیاز</span>
+        </div>    
+        <div id="dino" >
+            <img src="./assets/image/plear-f.png" alt="">
+        </div>
+        <div id="flag-start" >
+            <img src="./assets/image/flage-start.png" alt="">
+        </div>
+
+        <div class="block" >
+            <img src="./assets/image/opposing-player-3.png" >
+        </div>
+
+        <div id="field-bg"></div>
+        <div id="football-field" >
+            <div class="block-g"></div>
+            <div class="block-g"></div>
+            <div class="block-g"></div>
+            <div class="block-g"></div>
+            <div class="block-g"></div>
+            <div class="block-g"></div>
+        </div>
+        <div id="cloud" >
+            <img src="./assets/image/cloud.png" >
+        </div>
+    </div>
+
+    <div class="custom-modal">
+        <div class="modal-body">
+            <div class="modal-content">
+                <button class="close-modal">X</button>
+                <div class="header-modal">
+                    <div class="icon-modal">
+                        <img src="./assets/image/warning-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="body-modal-wrapper">
+                    <p>برای شروع بازی روی دکمه شروع کلیک کنید</p>
+                </div>
+                <div class="footer-modal">
+                    <button id="start-game" class="btn btn-fotfam-light">
+                        شروع بازی 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/application.js"></script>
+</body>
+
+</html>
